@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(projectpic.jpg);
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+#generator {
+  font-style: inherit;
+  text-align:center;
+  background-color: #ddd;
+  margin: 150px auto;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  width: 500px;
+}
+
+#password-length, #generated-password {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+}
+
+#char-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#char-options label {
+  display: flex;
+  align-items: center;
+}
+
+#generate-btn, #copy-btn {
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+#generate-btn {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 3px;
+}
+#generate-btn:hover {
+  background-color: #ccc;
+}
+
+#copy-btn {
+  background-color: #4CAF50;
+  color: #333;
+}
+
+#copy-btn:hover {
+  background-color: #ccc;
+}
